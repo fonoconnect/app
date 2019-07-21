@@ -5,25 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Fonoconnect</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <style>
-    html, body, img {
+    html, body {
         margin:0;
         padding: 0;
     }
-    body {
-        height: 100vh;
-        width: 100vw;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    body {        
         background: #006070;
     }
-img {
-width:100%;
-}
+    nav {
+        height: 250px;
+    }
+    nav img {
+        max-height: 100%;
+    }
+    main {margin-top:-50px;}
     </style>
 </head>
 <body>
-    <img src="logo_1.png" alt="Fonoconnect">
+    <nav class="d-flex justify-content-center align-items-center">
+        <img src="logo_1.png" alt="Fonoconnect">
+    </nav>
+    <main class="d-flex justify-content-center container card">
+        <section class="p-2 pb-4">
+            <h1>Fonoconnect <!-- span class="badge badge-dark">versão 0.1</span --></h1>
+            <hr>
+            <div>
+                <p>Versão de teste <strong>v0.1</strong></p>
+                <a class="btn btn-primary" href="apk/fonoconnect.apk">Baixar APK (47MB)</a>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
